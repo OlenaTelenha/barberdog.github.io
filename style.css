@@ -1,0 +1,213 @@
+*{
+	padding: 0
+}
+
+
+body{ 
+    background-image: url(images/fon.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+}
+
+
+}
+
+header{  
+	display:flex; 
+    font-family: 'Zen Kurenaido', sans-serif;
+    align-items: center; 
+    height: 72px; 
+    padding: 0 20px;
+    justify-content: space-between;}
+
+.logo{
+	justify-content: space-between;
+	font-size: 50px;
+}
+
+header a{
+    font-weight: 500; 
+    font-size: 35px; 
+    line-height: 20px; 
+    color: #FFF; 
+    text-decoration: none; 
+    position: relative;
+    margin-right: 32px;
+    margin-bottom: 5px;
+    font-family: 'Zen Kurenaido', sans-serif;
+
+}
+
+
+.wrapper{
+	position: relative;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: justify;
+	/* Свои стили */
+}
+	.wrapper:after{
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+		vertical-align: top;
+		content: '';
+	}
+	.wrapper>div{
+		position: relative;
+		display: inline-block;
+		width: 15%;
+		height: 50px;
+		box-sizing: border-box;
+		text-align: left;
+		vertical-align: top;
+		/* Свои стили */
+	}
+
+.first_img{
+    position: absolute;
+    /*position: fixed;*/
+    top: 158px;
+    left: 1300px;
+    line-height: 1px;
+    float: left;
+
+}
+
+.table_1{
+    position: absolute;
+    /*position: fixed;*/
+    top: 898px;
+    /*left: 500px;*/
+    left: 0px;
+    table-layout: fixed;
+}
+.kol_img{
+    width:15%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #3E6420;
+}
+.kol_img_l{
+    width:9%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #3E6420;
+}
+.zagolovki_tablizi{
+    color: #FFF;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 33px;
+}
+
+
+.set{
+color: #0;
+font-size: 33px;
+margin-left: 133px;
+}
+
+.BarberDog{
+	color: #0;
+	font-family: 'Ephesis', cursive;
+	font-size: 135px;
+	margin-left: 133px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.salon{
+	color: #49712a;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 36px;
+	margin-left: 132px;
+	font-weight: 900;
+
+}
+
+.uslugi{
+	color: #FFF;
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+}
+
+.klients{
+	color: #0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.spisok_uslug{
+	color: #FFF;
+	font-family: 'Zen Kaku Gothic New', sans-serif;
+
+}
+
+.pochemu{
+	color: #0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 34px;
+}
+
+.potomu{
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+}
+
+
+.prichina{
+	color: #49712a;
+	font-family: 'Raleway', sans-serif;
+	font-size: 34px;
+	width: 900;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.gosti{
+	color: #FFF;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 40px;
+}
+
+.socseti{
+color: #0;
+	font-family: 'Raleway', sans-serif;
+}
+.seczia{
+	
+	justify-content: space-between;
+	align-items: center;
+
+	
+}
+ 
+.sooseti{
+	display: flex;
+	font-size: 40px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    align-items: center;
+   
+
+}
+.otstyp{
+	margin-left: 40px;
+}
+
+.sooseti img{
+	width: 57px ;
+	height: 41px;
+}
+
+
+
+
+
